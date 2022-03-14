@@ -219,7 +219,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-python-flask-project/dev/1647238844974-2022-03-14T06:20:44.974Z/aws-python-flask-project.zip"
+                "S3Key": "serverless/aws-python-flask-project/dev/1647239394790-2022-03-14T06:29:54.790Z/aws-python-flask-project.zip"
               },
               "Handler": "s_api.handler",
               "Runtime": "python3.8",
@@ -237,14 +237,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersionYqMvV9ftLUZtsZkddEAzJOQclB3r8qd6wb1bF2afEyI": {
+          "ApiLambdaVersioni0fqHKBu2G2qmGqJ84Sty1UwHGtkRBAQjVOxmJeFw9o": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "MXRdmJIDj9yQHEMOIaqvT76oCzkMQhWhCHc088XDDOI="
+              "CodeSha256": "gXq3B8LKLj6wSCflvKAECIcRAMjNQCjgl8lGUX3jsJY="
             }
           },
           "ApiGatewayRestApi": {
@@ -369,7 +369,7 @@
               "ApiLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1647238825481": {
+          "ApiGatewayDeployment1647239373787": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -528,7 +528,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-python-flask-project/dev/1647238844974-2022-03-14T06:20:44.974Z/custom-resources.zip"
+                "S3Key": "serverless/aws-python-flask-project/dev/1647239394790-2022-03-14T06:29:54.790Z/custom-resources.zip"
               },
               "FunctionName": "aws-python-flask-project-dev-custom-resource-apigw-cw-role",
               "Handler": "api-gateway-cloud-watch-role/handler.handler",
@@ -590,7 +590,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionYqMvV9ftLUZtsZkddEAzJOQclB3r8qd6wb1bF2afEyI"
+              "Ref": "ApiLambdaVersioni0fqHKBu2G2qmGqJ84Sty1UwHGtkRBAQjVOxmJeFw9o"
             },
             "Export": {
               "Name": "sls-aws-python-flask-project-dev-ApiLambdaFunctionQualifiedArn"
@@ -748,7 +748,7 @@
         "timeout": 6,
         "runtime": "python3.8",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersionYqMvV9ftLUZtsZkddEAzJOQclB3r8qd6wb1bF2afEyI"
+        "versionLogicalId": "ApiLambdaVersioni0fqHKBu2G2qmGqJ84Sty1UwHGtkRBAQjVOxmJeFw9o"
       }
     },
     "configValidationMode": "warn",
@@ -781,7 +781,7 @@
     "artifact": "C:\\Users\\pys1\\Documents\\GitHub\\aws-python-flask-project\\.serverless\\aws-python-flask-project.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-python-flask-project/dev/1647238844974-2022-03-14T06:20:44.974Z",
+    "artifactDirectoryName": "serverless/aws-python-flask-project/dev/1647239394790-2022-03-14T06:29:54.790Z",
     "artifact": "aws-python-flask-project.zip"
   }
 }
